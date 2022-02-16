@@ -1,0 +1,80 @@
+:root {
+  --bg: #adb5bd;
+  --calbg: #495057;
+  --buttoncolor: #e9ecef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  background-color: var(--bg);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--calbg);
+  padding: 30px;
+  border-radius: 15px;
+  width: 500px;
+}
+
+.screen {
+  background-color: var(--buttoncolor);
+  margin-bottom: 10px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.history {
+  height: 60px;
+  text-align: right;
+}
+
+.input {
+  height: 70px;
+  text-align: right;
+  font-size: 50px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  background-color: var(--calbg);
+  height: 500px;
+}
+
+.btn-clear {
+  grid-column: 1/3;
+  background-color: var(--buttoncolor);
+}
+
+.btn-delete {
+  grid-column: 3/5;
+  background-color: var(--buttoncolor);
+}
+
+.btn {
+  background-color: var(--buttoncolor);
+}
