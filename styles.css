@@ -46,14 +46,15 @@ button {
   border-radius: 10px;
 }
 
-.history {
-  height: 60px;
+.screen {
   text-align: right;
 }
+.screen-history {
+  height: 60px;
+}
 
-.input {
+.screen-output {
   height: 70px;
-  text-align: right;
   font-size: 50px;
 }
 
