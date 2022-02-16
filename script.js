@@ -5,7 +5,8 @@ function action(obj){
   var pushed = obj.innerHTML;
   
   if(pushed == '='){
-    display.innerHTML = eval(display.innerHTML);
+    display.innerHTML = Math.round(eval(display.innerHTML) * 10000) / 10000;
+    console.log(typeof(eval(display.innerHTML)))
     prevDisplay.innerHTML = display.innerHTML;
   }else if (pushed == 'CLEAR'){
     display.innerHTML = '0';

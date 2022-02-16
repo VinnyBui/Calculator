@@ -4,6 +4,9 @@
   --buttoncolor: #e9ecef;
   --red: #f07979;
   --blue: #a2d2ff;
+  --hoverRed: #f95959;
+  --hoverBlue: #6db8ff;
+  --hoverBtn: #d0d2d4;
 }
 
 * {
@@ -78,11 +81,23 @@ button {
   background-color: var(--red);
 }
 
+.btn-clear:hover {
+  background-color: var(--hoverRed);
+}
+
 .btn-delete {
   grid-column: 3/5;
   background-color: var(--blue);
 }
 
+.btn-delete:hover {
+  background-color: var(--hoverBlue);
+}
+
 .btn {
   background-color: var(--buttoncolor);
+}
+
+.btn:hover {
+  background-color: var(--hoverBtn);
 }
