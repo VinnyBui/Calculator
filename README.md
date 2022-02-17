@@ -3,6 +3,8 @@ Calculator emulator
 
 Live demo of [Calculator](https://vinnybui.github.io/Calculator/)
 
+Calculator icon created by Freepik - Flaticon
+
 ## built with
 **Technologies**
 - HTML
